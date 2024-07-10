@@ -28,6 +28,12 @@
 2. Counterコンポーネントでその状態を利用してカウンターを実装
 
 ボタンをクリックすると、カウントが増加する仕組み
+
+```sh
+# Jotaiのセットアップ
+$ npm install jotai
+```
+
 ```js
 import React from 'react';
 import { atom, useAtom } from 'jotai';

@@ -28,6 +28,12 @@
 3. `RecoilRoot`でラップすることで、Recoilの状態管理を利用可能になる
 
 ボタンをクリックすると、カウントが増加する仕組み
+
+```sh
+# recoilのセットアップ
+$ npm install recoil
+```
+
 ```js
 import React from 'react';
 import { RecoilRoot, atom, useRecoilState } from 'recoil';
